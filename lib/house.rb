@@ -28,4 +28,7 @@ class House
         "house that Jack built.\n"
         end
     end
+
+    def recite
+    end
 end
