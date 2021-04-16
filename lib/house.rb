@@ -2,6 +2,8 @@ class House
     def line(num)
         "This is the " + 
         case num
+        when 5
+            "dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
         when 4
             "cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
         when 3
