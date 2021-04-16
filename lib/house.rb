@@ -1,14 +1,15 @@
 class House
     def line(num)
+        "This is the " + 
         case num
         when 4
-            "This is the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
+            "cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
         when 3
-            "This is the rat that ate the malt that lay in the house that Jack built.\n"
+            "rat that ate the malt that lay in the house that Jack built.\n"
         when 2
-            "This is the malt that lay in the house that Jack built.\n"
+            "malt that lay in the house that Jack built.\n"
         else
-        "This is the house that Jack built.\n"
+        "house that Jack built.\n"
         end
     end
 end
