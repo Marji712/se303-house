@@ -35,6 +35,8 @@ class House
             "malt that lay in the "
         when 3
             "rat that ate the malt that lay in the "
+        when 4
+            "cat that killed the rat that ate the malt that lay in the "
         else
             ""
         end
