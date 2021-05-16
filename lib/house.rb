@@ -5,7 +5,7 @@ class House
         when 1
             "house that Jack built.\n"
         when 2
-            "malt that lay in the house that Jack built.\n"
+            "#{phrase} house that Jack built.\n"
         when 3
             "rat that ate the malt that lay in the house that Jack built.\n"
         when 4
@@ -34,5 +34,6 @@ class House
     end
 
     def phrase
+        "malt that lay in the"
     end
 end
