@@ -5,7 +5,7 @@ class House
         when 1
             "#{phrase}"
         when 2
-            "malt that lay in the house that Jack built.\n"
+            "malt that lay in the #{phrase}"
         when 3
             "rat that ate the malt that lay in the house that Jack built.\n"
         when 4
