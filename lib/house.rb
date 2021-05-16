@@ -33,7 +33,7 @@ class House
         1.upto(12).map { |i| line(i) }.join("\n")
     end
 
-    def phrase(number = 2)
+    def phrase(number)
         if number == 2
             "malt that lay in the"
         else
