@@ -5,7 +5,7 @@ class House
         when 1
             "#{phrase(num)}house that Jack built.\n"
         when 2
-            "#{phrase(num)} house that Jack built.\n"
+            "#{phrase(num)}house that Jack built.\n"
         when 3
             "rat that ate the malt that lay in the house that Jack built.\n"
         when 4
@@ -35,7 +35,7 @@ class House
 
     def phrase(number)
         if number == 2
-            "malt that lay in the"
+            "malt that lay in the "
         else
             ""
         end
