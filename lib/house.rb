@@ -34,6 +34,6 @@ class House
     end
 
     def phrase
-        "that Jack built."
+        "house that Jack built.\n"
     end
 end
