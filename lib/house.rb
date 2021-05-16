@@ -36,6 +36,8 @@ class House
     def phrase(number = 2)
         if number == 2
             "malt that lay in the"
+        else
+            ""
         end
     end
 end
