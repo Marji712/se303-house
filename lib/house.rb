@@ -34,6 +34,8 @@ class House
     end
 
     def phrase(number = 2)
-        "malt that lay in the"
+        if number == 2
+            "malt that lay in the"
+        end
     end
 end
