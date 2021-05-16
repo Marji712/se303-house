@@ -36,6 +36,7 @@ class House
         when 2
             "malt that lay in the "
         when 3
+            "rat that ate the malt that lay in the "
         else
             ""
         end
