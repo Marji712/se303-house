@@ -3,7 +3,7 @@ class House
         "This is the " + 
         case num
         when 1
-            "house that Jack built.\n"
+            "#{phrase(num)}house that Jack built.\n"
         when 2
             "#{phrase(num)} house that Jack built.\n"
         when 3
