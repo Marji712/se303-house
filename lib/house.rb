@@ -8,7 +8,8 @@ class House
     end
 
     def phrase(num)
-        verses = [""]
+        verses = ["malt that lay in the ",
+            ""]
         case num
         when 2
             "malt that lay in the "
