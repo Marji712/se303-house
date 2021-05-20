@@ -34,5 +34,7 @@ class House
         else
             ""
         end
+        verses = []
     end
+
 end
