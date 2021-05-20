@@ -9,13 +9,11 @@ class House
 
     def phrase(num)
         verses = [
-            "cat that killed the rat that ate the malt that lay in the",
+            "cat that killed the",
             "rat that ate the",
             "malt that lay in the",
             ""]
         case num
-        when 4
-            "cat that killed the rat that ate the malt that lay in the "
         when 5
             "dog that worried the cat that killed the rat that ate the malt that lay in the "
         when 6
