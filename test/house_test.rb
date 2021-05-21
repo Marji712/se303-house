@@ -96,7 +96,7 @@ This is the horse and the hound and the horn that belonged to the farmer sowing 
 
   def test_thar_line_1
     expected = "Thar be the house that Jack built.\n"
-    assert_equal expected, House.new.line(1, pirate)
+    assert_equal expected, House.new.pirate_line(1)
   end
 
 end
