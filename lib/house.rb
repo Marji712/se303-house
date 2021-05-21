@@ -7,10 +7,9 @@ class House
         1.upto(12).map { |i| line(i) }.join("\n")
     end
 
-    def random
+    def random(pirate = false)
         rand_array = Array.new(12) { rand(1...12) }
-        rand_array.map.map { |i| line(i) }.join("\n")
-
+        rand_array.map.map { |i| line(i, pirate) }.join("\n")
     end
 
     def phrase(num)
