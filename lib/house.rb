@@ -9,6 +9,7 @@ class House
 
     def phrase(num)
         verses = [
+            "maiden all forlorn that milked the",
             "cow with the crumpled horn that tossed the",
             "dog that worried the",
             "cat that killed the",
