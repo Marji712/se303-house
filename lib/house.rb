@@ -9,6 +9,7 @@ class House
 
     def phrase(num)
         verses = [
+            "dog that worried the",
             "cat that killed the",
             "rat that ate the",
             "malt that lay in the",
