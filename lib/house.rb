@@ -23,5 +23,4 @@ class House
             ""]
         verses.last(num).join(" ")  
     end
-
 end
