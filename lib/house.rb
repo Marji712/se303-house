@@ -24,10 +24,6 @@ class House
         verses.last(num).join(" ")  
     end
 
-    def pirate_line(num)
-        "Thar be the #{phrase(num)}house that Jack built.\n"
-    end
-
     def opening(pirate)
         if pirate == true
             "Thar be"
