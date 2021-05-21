@@ -154,4 +154,10 @@ This is the horse and the hound and the horn that belonged to the farmer sowing 
     assert_equal expected, House.new.line(12, pirate = true)
   end
 
+  def test_random
+    skip
+    expected = "Test string of lies"
+    assert_equal expected, House.new.random
+  end
+
 end

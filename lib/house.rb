@@ -7,6 +7,12 @@ class House
         1.upto(12).map { |i| line(i) }.join("\n")
     end
 
+    def random
+        rand_array = Array.new(12) { rand(1...12) }
+        rand_array.map.map { |i| line(i) }.join("\n")
+
+    end
+
     def phrase(num)
         verses = [
             "horse and the hound and the horn that belonged to the",
