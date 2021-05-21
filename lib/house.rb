@@ -9,6 +9,7 @@ class House
 
     def phrase(num)
         verses = [
+            "farmer sowing his corn that kept the",
             "rooster that crowed in the morn that woke the",
             "priest all shaven and shorn that married the",
             "man all tattered and torn that kissed the",
