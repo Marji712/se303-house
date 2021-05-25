@@ -157,17 +157,17 @@ This is the horse and the hound and the horn that belonged to the farmer sowing 
   def test_random
     skip
     expected = "Test string of lies"
-    assert_equal expected, House.new.random
+    assert_equal expected, House.new.random_recite
   end
 
   def test_pirate_random
     skip
     expected = "Test string of lies"
-    assert_equal expected, House.new.random(pirate = true)
+    assert_equal expected, House.new.random_recite
   end
 
   def test_ending
-    random = House.new.random
+    random = House.new.random_recite
     assert(random.end_with?("the house that Jack built.\n"))
   end
 

@@ -1,4 +1,8 @@
 class House
+    def opening
+        "This is"
+    end
+
     def line(num)
         "#{opening} the #{phrase(num)}house that Jack built.\n"
     end
@@ -7,7 +11,7 @@ class House
         1.upto(12).map { |i| line(i) }.join("\n")
     end
 
-    def random()
+    def random_recite
         rand_array = Array.new(12) { rand(1...12) }
         rand_array.map.map { |i| line(i) }.join("\n")
     end
@@ -27,10 +31,6 @@ class House
             "malt that lay in the",
             ""]
         verses.last(num).join(" ")  
-    end
-
-    def opening
-        "This is"
     end
 end
 
