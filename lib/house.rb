@@ -1,8 +1,8 @@
 class House
     attr_reader :prefix
 
-    def intialize
-        @prefix = "This is"
+    def intialize(prefix = "This is")
+        @prefix = prefix
     end
 
     def line(num, pirate = false)
@@ -43,8 +43,8 @@ end
 class PirateHouse < House
     attr_reader :prefix
 
-    def intialize
-        @prefix = "Thar be"
+    def intialize(prefix = "Thar be")
+        @prefix = prefix
     end
 
     def opening
