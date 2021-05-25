@@ -166,4 +166,9 @@ This is the horse and the hound and the horn that belonged to the farmer sowing 
     assert_equal expected, House.new.random(pirate = true)
   end
 
+  def test_ending
+    random = House.new.random
+    assert(random.end_with?("the house that Jack built.\n"))
+  end
+
 end

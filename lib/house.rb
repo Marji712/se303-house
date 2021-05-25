@@ -29,11 +29,13 @@ class House
         verses.last(num).join(" ")  
     end
 
-    def opening(pirate)
-        if pirate == true
-            "Thar be"
-        else
-            "This is"
-        end
+    def opening()
+        "This is"
+    end
+end
+
+class PirateHouse < House
+    def opening
+        "Thar be"
     end
 end
