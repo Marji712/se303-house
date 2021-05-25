@@ -1,6 +1,6 @@
 class House
     def line(num, pirate = false)
-        "#{opening(pirate)} the #{phrase(num)}house that Jack built.\n"
+        "#{opening} the #{phrase(num)}house that Jack built.\n"
     end
 
     def recite
