@@ -5,7 +5,7 @@ class House
         @prefix = prefix
     end
 
-    def line(num, pirate = false)
+    def line(num)
         "#{opening} the #{phrase(num)}house that Jack built.\n"
     end
 
@@ -15,7 +15,7 @@ class House
 
     def random(pirate = false)
         rand_array = Array.new(12) { rand(1...12) }
-        rand_array.map.map { |i| line(i, pirate) }.join("\n")
+        rand_array.map.map { |i| line(i) }.join("\n")
     end
 
     def phrase(num)
