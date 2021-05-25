@@ -1,4 +1,6 @@
 class House
+    def atttr_reader :prefix
+        
     def intialize
         @prefix = "This is"
     end
@@ -39,6 +41,8 @@ class House
 end
 
 class PirateHouse < House
+    def atttr_reader :prefix
+        
     def intialize
         @prefix = "Thar be"
     end
