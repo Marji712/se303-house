@@ -1,4 +1,8 @@
 class House
+    def intialize
+        @prefix = "This is"
+    end
+
     def line(num, pirate = false)
         "#{opening} the #{phrase(num)}house that Jack built.\n"
     end
@@ -38,7 +42,7 @@ class PirateHouse < House
     def intialize
         @prefix = "Thar be"
     end
-    
+
     def opening
         "Thar be"
     end
