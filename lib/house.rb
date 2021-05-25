@@ -1,10 +1,4 @@
 class House
-    attr_reader :prefix
-
-    def intialize(prefix = "This is")
-        @prefix = prefix
-    end
-
     def line(num)
         "#{opening} the #{phrase(num)}house that Jack built.\n"
     end
@@ -35,18 +29,12 @@ class House
         verses.last(num).join(" ")  
     end
 
-    def opening()
+    def opening
         "This is"
     end
 end
 
 class PirateHouse < House
-    attr_reader :prefix
-
-    def intialize(prefix = "Thar be")
-        @prefix = prefix
-    end
-
     def opening
         "Thar be"
     end
