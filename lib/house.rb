@@ -35,6 +35,10 @@ class House
 end
 
 class PirateHouse < House
+    def intialize
+        @prefix = "Thar be"
+    end
+    
     def opening
         "Thar be"
     end
