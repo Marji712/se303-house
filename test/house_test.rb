@@ -167,8 +167,7 @@ This is the horse and the hound and the horn that belonged to the farmer sowing 
   end
 
   def test_ending
-    skip
-    random = House.new.random_recite
+    random = RandomHouse.new.recite
     assert(random.end_with?("the house that Jack built.\n"))
   end
 
