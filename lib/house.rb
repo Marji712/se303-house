@@ -73,4 +73,7 @@ class RandomPirateHouse < House
 end
 
 class RandomClauseHouse < House
+    def subjects
+        super.shuffle!
+    end
 end
