@@ -182,4 +182,9 @@ This is the horse and the hound and the horn that belonged to the farmer sowing 
     assert(expected.all? { |word| RandomClauseHouse.new.recite.include? word } )
   end
 
+  def test_random_clause_ending
+    random = RandomClauseHouse.new.recite
+    assert(random.end_with?("house that Jack built.\n"))
+  end
+
 end
