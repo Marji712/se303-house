@@ -157,13 +157,13 @@ This is the horse and the hound and the horn that belonged to the farmer sowing 
   def test_random
     expected = ["horse", "farmer", "rooster", "priest", "man", "maiden", 
       "cow", "dog", "rat", "malt"]
-    assert(expected.all? { |word| RandomHouse.new.recite.include? word} )
+    assert(expected.all? { |word| RandomHouse.new.recite.include? word } )
   end
 
   def test_pirate_random
     expected = ["horse", "farmer", "rooster", "priest", "man", "maiden", 
       "cow", "dog", "rat", "malt", "Thar"]
-    assert(expected.all? { |word| RandomPirateHouse.new.recite.include? word} )
+    assert(expected.all? { |word| RandomPirateHouse.new.recite.include? word } )
   end
 
   def test_ending
