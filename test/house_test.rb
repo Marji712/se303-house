@@ -155,15 +155,13 @@ This is the horse and the hound and the horn that belonged to the farmer sowing 
   end
 
   def test_random
-    skip
-    expected = "Test string of lies"
-    assert_equal expected, House.new.random_recite
+    expected = 2347
+    assert_equal expected, House.new.random_recite.length
   end
 
   def test_pirate_random
-    skip
-    expected = "Test string of lies"
-    assert_equal expected, House.new.random_recite
+    expected = 2347
+    assert_equal expected, House.new.random_recite.length
   end
 
   def test_ending
