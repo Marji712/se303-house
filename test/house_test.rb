@@ -155,9 +155,9 @@ This is the horse and the hound and the horn that belonged to the farmer sowing 
   end
 
   def test_random
-    skip
-    expected = 2347
-    assert_equal expected, House.new.random_recite.length
+    expected = ["horse", "farmer", "rooster", "priest", "man", "maiden", 
+      "cow", "dog", "rat", "malt"]
+    assert(expected.all? { |word| RandomHouse.new.recite.include? word} )
   end
 
   def test_pirate_random
