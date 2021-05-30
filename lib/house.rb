@@ -31,17 +31,17 @@ class House
     end
 
     def subjects
-        ["horse and the hound and the horn that ",
-        "farmer sowing his corn that ",
-        "rooster that ",
-        "priest all shaven and shorn that ",
-        "man all tattered and torn that ",
-        "maiden all forlorn that ",
-        "cow with the crumpled horn that ",
-        "dog that ",
-        "cat that ",
-        "rat that ",
-        "malt that ",
+        ["horse and the hound and the horn that",
+        "farmer sowing his corn that",
+        "rooster that",
+        "priest all shaven and shorn that",
+        "man all tattered and torn that",
+        "maiden all forlorn that",
+        "cow with the crumpled horn that",
+        "dog that",
+        "cat that",
+        "rat that",
+        "malt that",
         ""]
     end
 
