@@ -31,32 +31,32 @@ class House
     end
 
     def subjects
-        ["horse and the hound and the horn that",
-        "farmer sowing his corn that",
-        "rooster that",
-        "priest all shaven and shorn that",
-        "man all tattered and torn that",
-        "maiden all forlorn that",
-        "cow with the crumpled horn that",
-        "dog that",
-        "cat that",
-        "rat that",
-        "malt that",
+        ["the horse and the hound and the horn that",
+        "the farmer sowing his corn that",
+        "the rooster that",
+        "the priest all shaven and shorn that",
+        "the man all tattered and torn that",
+        "the maiden all forlorn that",
+        "the cow with the crumpled horn that",
+        "the dog that",
+        "the cat that",
+        "the rat that",
+        "the malt that",
         ""]
     end
 
     def verbs
-        ["belonged to the",
-        "kept the",
-        "woke the",
-        "married the",
-        "kissed the",
-        "milked the",
-        "tossed the",
-        "worried the",
-        "killed the",
-        "ate the",
-        "lay in the",
+        ["belonged to",
+        "kept",
+        "woke",
+        "married",
+        "kissed",
+        "milked",
+        "tossed",
+        "worried",
+        "killed",
+        "ate",
+        "lay in",
         ""]
     end
 end
