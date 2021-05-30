@@ -44,6 +44,21 @@ class House
         "malt that ",
         ""]
     end
+
+    def verbs
+        ["belonged to the",
+        "kept the",
+        "woke the",
+        "married the",
+        "kissed the",
+        "milked the",
+        "tossed the",
+        "worried the",
+        "killed the",
+        "ate the",
+        "lay in the",
+        ""]
+    end
 end
 
 class PirateHouse < House
