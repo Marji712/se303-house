@@ -76,4 +76,8 @@ class RandomClauseHouse < House
     def subjects
         super.shuffle!
     end
+
+    def verbs
+        super.shuffle!
+    end
 end
