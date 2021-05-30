@@ -44,4 +44,13 @@ class RandomHouse < House
 end
 
 
+class RandomPirateHouse < House
+    def opening
+        "Thar be"
+    end
+
+    def verses
+        super.shuffle!
+    end
+end
 
