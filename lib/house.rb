@@ -36,3 +36,10 @@ class PirateHouse < House
         "Thar be"
     end
 end
+
+class RandomHouse < House
+    def verses
+        super.shuffle!
+    end
+end
+
