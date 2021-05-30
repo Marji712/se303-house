@@ -71,4 +71,3 @@ class RandomPirateHouse < House
         super.shuffle!
     end
 end
-

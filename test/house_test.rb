@@ -176,4 +176,10 @@ This is the horse and the hound and the horn that belonged to the farmer sowing 
     assert(random.end_with?("house that Jack built.\n"))
   end
 
+  def test_random_clause
+    expected = ["horse", "farmer", "rooster", "priest", "man", "maiden", 
+      "cow", "dog", "rat", "malt"]
+    assert(expected.all? { |word| RandomClauseHouse.new.recite.include? word } )
+  end
+
 end
