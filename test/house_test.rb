@@ -168,7 +168,12 @@ This is the horse and the hound and the horn that belonged to the farmer sowing 
 
   def test_ending
     random = RandomHouse.new.recite
-    assert(random.end_with?("the house that Jack built.\n"))
+    assert(random.end_with?("house that Jack built.\n"))
+  end
+
+  def test_pirate_ending
+    random = RandomPirateHouse.new.recite
+    assert(random.end_with?("house that Jack built.\n"))
   end
 
 end
